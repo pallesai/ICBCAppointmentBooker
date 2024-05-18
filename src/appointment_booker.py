@@ -1,5 +1,5 @@
-from src.api import get_bearer_token
+from src.api import get_bearer_token, get_appointments
 
 if __name__ == "__main__":
-    print(get_bearer_token())
-
+    token = get_bearer_token()
+    print(get_appointments(token))
