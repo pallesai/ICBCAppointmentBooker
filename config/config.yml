@@ -19,9 +19,3 @@ location:
 end_points:
   appointments_end_point: "https://onlinebusiness.icbc.com/deas-api/v1/web/getAvailableAppointments"
   login_end_point: "https://onlinebusiness.icbc.com/deas-api/v1/webLogin/webLogin"
-
-
-
-
-
-
