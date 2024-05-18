@@ -4,7 +4,7 @@ import yaml
 
 login_end_point = "https://onlinebusiness.icbc.com/deas-api/v1/webLogin/webLogin"
 
-with open('./config.yml', 'r') as file:
+with open('config/config.yml', 'r') as file:
     conf = yaml.safe_load(file)
 
 
